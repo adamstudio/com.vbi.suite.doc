@@ -38,6 +38,174 @@ table.hovertable td {
 <td><B>Function Name</B></td><td></td><td><B>Description</B></td><td></td><td><B>Example</B></td><td></td><td><B>Parameters</B></td>
 </tr>
 </th>
+<tr>
+<td>DSXSetPageOrientation('p');</td><td></td><td>Sets the PDF Orientation</td><td></td><td>In the following example the value of PDF Orientation is modified with the parameter of type <property>String</property>  having value 'p'.
+					  <br>These are the available options to be used : p, l.<br>VBIPDFEXPORT_1.DSXSetPageOrientation('p');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'p'</td><td>String</td><td>PDF Orientation</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetPageSize('a3');</td><td></td><td>Sets the Page Size</td><td></td><td>In the following example the value of Page Size is modified with the parameter of type <property>String</property>  having value 'a3'.
+					  <br>These are the available options to be used : a3, a4, a5, letter, legal.<br>VBIPDFEXPORT_1.DSXSetPageSize('a3');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'a3'</td><td>String</td><td>Page Size</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDocumentName("strDocumentName");</td><td></td><td>Sets the DocumentName</td><td></td><td>In the following example the value of DocumentName is modified with the
+					  parameter of type <property>String</property> having value "strDocumentName".<br>VBIPDFEXPORT_1.DSXSetDocumentName("strDocumentName");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDocumentName"</td><td>String</td><td>DocumentName</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetHeaderText("strHeaderText");</td><td></td><td>Sets the HeaderText</td><td></td><td>In the following example the value of HeaderText is modified with the
+					  parameter of type <property>String</property> having value "strHeaderText".<br>VBIPDFEXPORT_1.DSXSetHeaderText("strHeaderText");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strHeaderText"</td><td>String</td><td>HeaderText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterText("strFooterText");</td><td></td><td>Sets the FooterText</td><td></td><td>In the following example the value of FooterText is modified with the
+					  parameter of type <property>String</property> having value "strFooterText".<br>VBIPDFEXPORT_1.DSXSetFooterText("strFooterText");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strFooterText"</td><td>String</td><td>FooterText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetHeaderPageNumber(true);</td><td></td><td>Sets the HeaderPageNumber</td><td></td><td>In the following example the value of HeaderPageNumber is modified with the
+					  parameter of type <property>boolean</property> having value true.<br>VBIPDFEXPORT_1.DSXSetHeaderPageNumber(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>HeaderPageNumber</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterPageNumber(true);</td><td></td><td>Sets the FooterPageNumber</td><td></td><td>In the following example the value of FooterPageNumber is modified with the
+					  parameter of type <property>boolean</property> having value true.<br>VBIPDFEXPORT_1.DSXSetFooterPageNumber(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>FooterPageNumber</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFontSize(86);</td><td></td><td>Sets the FontSize</td><td></td><td>In the following example the value of FontSize is modified with the
+					  parameter of type <property>int</property> having value 86.<br>VBIPDFEXPORT_1.DSXSetFontSize(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>FontSize</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTextColor("#FF0064");</td><td></td><td>Sets the TextColor</td><td></td><td>In the following example the value of TextColor is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>VBIPDFEXPORT_1.DSXSetTextColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>TextColor</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXExportAsPDF();</td><td></td><td>Sets the Export as PDF</td><td></td><td>In the following example the Export as PDF is triggered. <br>VBIPDFEXPORT_1.DSXExportAsPDF();<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td></td><td></td><td>Export as PDF</td>
+</tr>
+</table>
+</td>
+</tr>
 </table>
 </body>
 </html>
