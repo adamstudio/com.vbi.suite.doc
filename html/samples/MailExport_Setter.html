@@ -56,7 +56,24 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXSetToMailId("strToMailId");</td><td></td><td>Sets the toMail</td><td></td><td>In the following example the value of toMail is modified with the
+<td>DSXSetOnBehalf("strOnBehalf");</td><td></td><td>Sets the On Behalf of</td><td></td><td>In the following example the value of On Behalf of is modified with the
+					  parameter of type <property>String</property> having value "strOnBehalf"<br>.<br>MAILEXPORT_1.DSXSetOnBehalf("strOnBehalf");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strOnBehalf"</td><td>String</td><td>On Behalf of</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetToMailId("strToMailId");</td><td></td><td>Sets the to eMail</td><td></td><td>In the following example the value of to eMail is modified with the
 					  parameter of type <property>String</property> having value "strToMailId"<br>.<br>MAILEXPORT_1.DSXSetToMailId("strToMailId");<br>
 <br>
 </td><td></td><td>
@@ -67,7 +84,41 @@ table.hovertable td {
 </tr>
 </th>
 <tr>
-<td>"strToMailId"</td><td>String</td><td>toMail</td>
+<td>"strToMailId"</td><td>String</td><td>to eMail</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetCcMailId("strCcMailId");</td><td></td><td>Sets the cc eMail</td><td></td><td>In the following example the value of cc eMail is modified with the
+					  parameter of type <property>String</property> having value "strCcMailId"<br>.<br>MAILEXPORT_1.DSXSetCcMailId("strCcMailId");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strCcMailId"</td><td>String</td><td>cc eMail</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetBccMailId("strBccMailId");</td><td></td><td>Sets the bcc eMail</td><td></td><td>In the following example the value of bcc eMail is modified with the
+					  parameter of type <property>String</property> having value "strBccMailId"<br>.<br>MAILEXPORT_1.DSXSetBccMailId("strBccMailId");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strBccMailId"</td><td>String</td><td>bcc eMail</td>
 </tr>
 </table>
 </td>
@@ -135,23 +186,6 @@ table.hovertable td {
 </th>
 <tr>
 <td></td><td></td><td>Send Mail</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>DSXSetUserName();</td><td></td><td>Sets the User Name</td><td></td><td>In the following example the User Name is triggered. <br>MAILEXPORT_1.DSXSetUserName();<br>
-					Helps Setting the user name of email Sender from Datasource
-				
-				</td><td></td><td>
-<table>
-<th>
-<tr>
-<td>Name</td><td>Type</td><td>Description</td>
-</tr>
-</th>
-<tr>
-<td></td><td></td><td>User Name</td>
 </tr>
 </table>
 </td>
