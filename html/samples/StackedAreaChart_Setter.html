@@ -39,6 +39,23 @@ table.hovertable td {
 </tr>
 </th>
 <tr>
+<td>DSXSetDataLabelNoOfDecimals("strDataLabelNoOfDecimals");</td><td></td><td>Sets the decimal</td><td></td><td>In the following example the value of decimal is modified with the
+					  parameter of type <property>String</property> having value "strDataLabelNoOfDecimals"<br>.<br>STACKEDAREACHART_1.DSXSetDataLabelNoOfDecimals("strDataLabelNoOfDecimals");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDataLabelNoOfDecimals"</td><td>String</td><td>decimal</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
 <td>DSXSetChartType('percentxxareasplinehorizontal');</td><td></td><td>Sets the Chart Type</td><td></td><td>In the following example the value of Chart Type is modified with the parameter of type <property>String</property>  having value 'percentxxareasplinehorizontal'<br>These are the available options to be used : normalxxarea, normalxxareahorizontal, normalxxareaspline, normalxxareasplinehorizontal, percentxxarea, percentxxareahorizontal, percentxxareaspline, percentxxareasplinehorizontal.<br>STACKEDAREACHART_1.DSXSetChartType('percentxxareasplinehorizontal');<br>
 <br>
 </td><td></td><td>
@@ -116,6 +133,23 @@ table.hovertable td {
 </th>
 <tr>
 <td>'USD'</td><td>String</td><td>SubTitleText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetToolTipNoOfDecimals(86);</td><td></td><td>Sets the Tooltip ValueDecimals</td><td></td><td>In the following example the value of Tooltip ValueDecimals is modified with the
+					  parameter of type <property>int</property> having value 86<br>.<br>STACKEDAREACHART_1.DSXSetToolTipNoOfDecimals(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Tooltip ValueDecimals</td>
 </tr>
 </table>
 </td>
@@ -385,6 +419,40 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
+<td>DSXSetYaxisMaximum("strYaxisMaximum");</td><td></td><td>Sets the yaxismax</td><td></td><td>In the following example the value of yaxismax is modified with the
+					  parameter of type <property>String</property> having value "strYaxisMaximum"<br>.<br>STACKEDAREACHART_1.DSXSetYaxisMaximum("strYaxisMaximum");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strYaxisMaximum"</td><td>String</td><td>yaxismax</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYaxisMinimum("strYaxisMinimum");</td><td></td><td>Sets the yaxismin</td><td></td><td>In the following example the value of yaxismin is modified with the
+					  parameter of type <property>String</property> having value "strYaxisMinimum"<br>.<br>STACKEDAREACHART_1.DSXSetYaxisMinimum("strYaxisMinimum");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strYaxisMinimum"</td><td>String</td><td>yaxismin</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
 <td>DSXSetYAxisLabelEnabled(true);</td><td></td><td>Sets the YAxis Label Enabled</td><td></td><td>In the following example the value of YAxis Label Enabled is modified with the
 					  parameter of type <property>boolean</property> having value true<br>.<br>STACKEDAREACHART_1.DSXSetYAxisLabelEnabled(true);<br>
 <br>
@@ -620,23 +688,6 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXSetAxisLabel("strAxisLabel");</td><td></td><td>Sets the AxisLabel</td><td></td><td>In the following example the value of AxisLabel is modified with the
-					  parameter of type <property>String</property> having value "strAxisLabel"<br>.<br>STACKEDAREACHART_1.DSXSetAxisLabel("strAxisLabel");<br>
-<br>
-</td><td></td><td>
-<table>
-<th>
-<tr>
-<td>Name</td><td>Type</td><td>Description</td>
-</tr>
-</th>
-<tr>
-<td>"strAxisLabel"</td><td>String</td><td>AxisLabel</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
 <td>DSXSetDataSelection({"[Measures]": "Quantity"});</td><td></td><td>Sets the Data Selection specifying the result set of a data source</td><td></td><td>In the following example the value of Data Selection specifying the result set of a data source is modified with the
 					  parameter of type <property>ResultSetSelection</property> having value {"[Measures]": "Quantity"}<br>.<br>STACKEDAREACHART_1.DSXSetDataSelection({"[Measures]": "Quantity"});<br>
 <br>
@@ -649,6 +700,38 @@ table.hovertable td {
 </th>
 <tr>
 <td>{"[Measures]": "Quantity"}</td><td>ResultSetSelection</td><td>Data Selection specifying the result set of a data source</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXShowLoading();</td><td></td><td>Sets the Show Loading</td><td></td><td>.<br>STACKEDAREACHART_1.DSXShowLoading(null);<br>
+<br>In the following example the Show Loading is triggered. <br>STACKEDAREACHART_1.DSXShowLoading();<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td></td><td></td><td>Show Loading</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXHideLoading();</td><td></td><td>Sets the Hide Loading</td><td></td><td>.<br>STACKEDAREACHART_1.DSXHideLoading(null);<br>
+<br>In the following example the Hide Loading is triggered. <br>STACKEDAREACHART_1.DSXHideLoading();<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td></td><td></td><td>Hide Loading</td>
 </tr>
 </table>
 </td>

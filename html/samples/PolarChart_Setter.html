@@ -39,7 +39,24 @@ table.hovertable td {
 </tr>
 </th>
 <tr>
-<td>DSXSetChartType('line');</td><td></td><td>Sets the Chart Type</td><td></td><td>In the following example the value of Chart Type is modified with the parameter of type <property>String</property>  having value 'line'<br>These are the available options to be used : area, line, column, bar.<br>POLARCHART_1.DSXSetChartType('line');<br>
+<td>DSXSetDataLabelNoOfDecimals("strDataLabelNoOfDecimals");</td><td></td><td>Sets the decimal</td><td></td><td>In the following example the value of decimal is modified with the
+					  parameter of type <property>String</property> having value "strDataLabelNoOfDecimals"<br>.<br>POLARCHART_1.DSXSetDataLabelNoOfDecimals("strDataLabelNoOfDecimals");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDataLabelNoOfDecimals"</td><td>String</td><td>decimal</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartType('line');</td><td></td><td>Sets the Chart Type</td><td></td><td>In the following example the value of Chart Type is modified with the parameter of type <property>String</property>  having value 'line'<br>These are the available options to be used : radarfilled, radar, radarcolumn, radarcolumnstacked.<br>POLARCHART_1.DSXSetChartType('line');<br>
 <br>
 </td><td></td><td>
 <table>
@@ -116,6 +133,23 @@ table.hovertable td {
 </th>
 <tr>
 <td>'USD'</td><td>String</td><td>SubTitleText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetToolTipNoOfDecimals(86);</td><td></td><td>Sets the Tooltip ValueDecimals</td><td></td><td>In the following example the value of Tooltip ValueDecimals is modified with the
+					  parameter of type <property>int</property> having value 86<br>.<br>POLARCHART_1.DSXSetToolTipNoOfDecimals(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Tooltip ValueDecimals</td>
 </tr>
 </table>
 </td>
@@ -620,23 +654,6 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXSetAxisLabel("strAxisLabel");</td><td></td><td>Sets the AxisLabel</td><td></td><td>In the following example the value of AxisLabel is modified with the
-					  parameter of type <property>String</property> having value "strAxisLabel"<br>.<br>POLARCHART_1.DSXSetAxisLabel("strAxisLabel");<br>
-<br>
-</td><td></td><td>
-<table>
-<th>
-<tr>
-<td>Name</td><td>Type</td><td>Description</td>
-</tr>
-</th>
-<tr>
-<td>"strAxisLabel"</td><td>String</td><td>AxisLabel</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
 <td>DSXSetDataSelection({"[Measures]": "Quantity"});</td><td></td><td>Sets the Data Selection specifying the result set of a data source</td><td></td><td>In the following example the value of Data Selection specifying the result set of a data source is modified with the
 					  parameter of type <property>ResultSetSelection</property> having value {"[Measures]": "Quantity"}<br>.<br>POLARCHART_1.DSXSetDataSelection({"[Measures]": "Quantity"});<br>
 <br>
@@ -649,6 +666,38 @@ table.hovertable td {
 </th>
 <tr>
 <td>{"[Measures]": "Quantity"}</td><td>ResultSetSelection</td><td>Data Selection specifying the result set of a data source</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXShowLoading();</td><td></td><td>Sets the Show Loading</td><td></td><td>.<br>POLARCHART_1.DSXShowLoading(null);<br>
+<br>In the following example the Show Loading is triggered. <br>POLARCHART_1.DSXShowLoading();<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td></td><td></td><td>Show Loading</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXHideLoading();</td><td></td><td>Sets the Hide Loading</td><td></td><td>.<br>POLARCHART_1.DSXHideLoading(null);<br>
+<br>In the following example the Hide Loading is triggered. <br>POLARCHART_1.DSXHideLoading();<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td></td><td></td><td>Hide Loading</td>
 </tr>
 </table>
 </td>

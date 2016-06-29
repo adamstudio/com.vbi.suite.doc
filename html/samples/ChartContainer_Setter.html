@@ -39,23 +39,6 @@ table.hovertable td {
 </tr>
 </th>
 <tr>
-<td>DSXSetAxisLabel("strAxisLabel");</td><td></td><td>Sets the AxisLabel</td><td></td><td>In the following example the value of AxisLabel is modified with the
-					  parameter of type <property>String</property> having value "strAxisLabel"<br>.<br>CHARTCONTAINER_1.DSXSetAxisLabel("strAxisLabel");<br>
-<br>
-</td><td></td><td>
-<table>
-<th>
-<tr>
-<td>Name</td><td>Type</td><td>Description</td>
-</tr>
-</th>
-<tr>
-<td>"strAxisLabel"</td><td>String</td><td>AxisLabel</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
 <td>DSXSetDecimalSeparator("strDecimalSeparator");</td><td></td><td>Sets the DecimalSeparator</td><td></td><td>In the following example the value of DecimalSeparator is modified with the
 					  parameter of type <property>String</property> having value "strDecimalSeparator"<br>.<br>CHARTCONTAINER_1.DSXSetDecimalSeparator("strDecimalSeparator");<br>
 <br>
@@ -151,6 +134,23 @@ table.hovertable td {
 </th>
 <tr>
 <td>'USD'</td><td>String</td><td>SubTitleText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetToolTipNoOfDecimals(86);</td><td></td><td>Sets the Tooltip ValueDecimals</td><td></td><td>In the following example the value of Tooltip ValueDecimals is modified with the
+					  parameter of type <property>int</property> having value 86<br>.<br>CHARTCONTAINER_1.DSXSetToolTipNoOfDecimals(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Tooltip ValueDecimals</td>
 </tr>
 </table>
 </td>
@@ -298,6 +298,38 @@ table.hovertable td {
 </th>
 <tr>
 <td>{"[Measures]": "Quantity"}</td><td>ResultSetSelection</td><td>Data Selection specifying the result set of a data source</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXShowLoading();</td><td></td><td>Sets the Show Loading</td><td></td><td>.<br>CHARTCONTAINER_1.DSXShowLoading(null);<br>
+<br>In the following example the Show Loading is triggered. <br>CHARTCONTAINER_1.DSXShowLoading();<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td></td><td></td><td>Show Loading</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXHideLoading();</td><td></td><td>Sets the Hide Loading</td><td></td><td>.<br>CHARTCONTAINER_1.DSXHideLoading(null);<br>
+<br>In the following example the Hide Loading is triggered. <br>CHARTCONTAINER_1.DSXHideLoading();<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td></td><td></td><td>Hide Loading</td>
 </tr>
 </table>
 </td>

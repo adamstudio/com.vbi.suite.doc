@@ -86,10 +86,40 @@ table.hovertable td {
 </td><td></td><td>StringArray</td>
 </tr>
 <tr>
-<td>DSXGetSelectedValues(/*Handle index*/String value);</td><td></td><td>Returns the Selected given handle index</td><td></td><td>In the following example DSXGetSelectedValues('1') is executed, <br>
-					  it returns the value of Selected given handle index of type  String<br>RANGESLIDER_1.DSXGetSelectedValues('1');<br>
+<td>DSXGetDataSelection();</td><td></td><td>Returns the Data Selection specifying the result set of a data source</td><td></td><td>In the following example DSXGetDataSelection(); is executed, <br>
+					  it returns the value of Data Selection specifying the result set of a data source of type  ResultSetSelection<br>RANGESLIDER_1.DSXGetDataSelection();<br>
+<br>
+</td><td></td><td>ResultSetSelection</td>
+</tr>
+<tr>
+<td>DSXGetSelectedValues(/*Handle index*/String value);</td><td></td><td>Returns the Selected value of given handle index</td><td></td><td>In the following example DSXGetSelectedValues('1') is executed, <br>
+					  it returns the value of Selected value of given handle index of type  String<br>RANGESLIDER_1.DSXGetSelectedValues('1');<br>
 <br>
 </td><td></td><td>String</td>
+</tr>
+<tr>
+<td>DSXGetSelectedValuesInt(/*Handle index*/String value);</td><td></td><td>Returns the Selected value of given handle index</td><td></td><td>In the following example DSXGetSelectedValuesInt('1') is executed, <br>
+					  it returns the value of Selected value of given handle index of type  int<br>RANGESLIDER_1.DSXGetSelectedValuesInt('1');<br>
+<br>
+</td><td></td><td>int</td>
+</tr>
+<tr>
+<td>DSXGetSelectedValuesFloat(/*Handle index*/String value);</td><td></td><td>Returns the Selected value of given handle index</td><td></td><td>In the following example DSXGetSelectedValuesFloat('1') is executed, <br>
+					  it returns the value of Selected value of given handle index of type  float<br>RANGESLIDER_1.DSXGetSelectedValuesFloat('1');<br>
+<br>
+</td><td></td><td>float</td>
+</tr>
+<tr>
+<td>DSXGetSelectedValueInt();</td><td></td><td>Returns the Selected value of Selection</td><td></td><td>In the following example DSXGetSelectedValueInt(value) is executed, <br>
+					  it returns the value of Selected value of Selection of type  int<br>RANGESLIDER_1.DSXGetSelectedValueInt(value);<br>
+<br>
+</td><td></td><td>int</td>
+</tr>
+<tr>
+<td>DSXGetSelectedValueFloat();</td><td></td><td>Returns the Selected value of Selection</td><td></td><td>In the following example DSXGetSelectedValueFloat(value) is executed, <br>
+					  it returns the value of Selected value of Selection of type  float<br>RANGESLIDER_1.DSXGetSelectedValueFloat(value);<br>
+<br>
+</td><td></td><td>float</td>
 </tr>
 </table>
 </body>
