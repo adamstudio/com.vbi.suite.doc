@@ -40,9 +40,8 @@ table.hovertable td {
 </th>
 <tr>
 <td>DSXSetDocumentName("strDocumentName");</td><td></td><td>Sets the Document Name</td><td></td><td>In the following example the value of Document Name is modified with the
-					  parameter of type <property>String</property> having value "strDocumentName"<br>.<br>DOCEXPORT_1.DSXSetDocumentName("strDocumentName");<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>String</property> having value "strDocumentName"<br>.<br><code>DOCEXPORT_1.DSXSetDocumentName("strDocumentName");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -57,9 +56,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetServerURL("strServerURL");</td><td></td><td>Sets the Service URL</td><td></td><td>In the following example the value of Service URL is modified with the
-					  parameter of type <property>String</property> having value "strServerURL"<br>.<br>DOCEXPORT_1.DSXSetServerURL("strServerURL");<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>String</property> having value "strServerURL"<br>.<br><code>DOCEXPORT_1.DSXSetServerURL("strServerURL");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -73,9 +71,8 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXExportAsDOC();</td><td></td><td>Sets the Export as DOC</td><td></td><td>.<br>DOCEXPORT_1.DSXExportAsDOC(null);<br>
-<br>In the following example the Export as DOC is triggered. <br>DOCEXPORT_1.DSXExportAsDOC();<br>
-</td><td></td><td>
+<td>DSXExportAsDOC();</td><td></td><td>Sets the Export as DOC</td><td></td><td>.<br><code>DOCEXPORT_1.DSXExportAsDOC(null);<br>
+<br></code>In the following example the Export as DOC is triggered. <br><code>DOCEXPORT_1.DSXExportAsDOC();<br></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -84,6 +81,25 @@ table.hovertable td {
 </th>
 <tr>
 <td></td><td></td><td>Export as DOC</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXExportSelectedComponents("strExportSelectedComponents");</td><td></td><td>Sets the Export Selected Components as DOC</td><td></td><td></code></code>
+				<example>In the following example the selected components are exported.
+				This method gets comma(,) separated <property>string</property> as argument 
+				which should contain the component name's as shown.  <code>DOCEXPORT_1.DSXExportSelectedComponents("LOCATIONANALYZER_1,HCMAP_1")</code></example><note>� Visual BI Solutions, 2015-2016. All rights reserved.</note>
+			
+			</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strExportSelectedComponents"</td><td>String</td><td>Export Selected Components as DOC</td>
 </tr>
 </table>
 </td>

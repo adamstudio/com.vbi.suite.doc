@@ -39,9 +39,8 @@ table.hovertable td {
 </tr>
 </th>
 <tr>
-<td>DSXSetPageOrientation('p');</td><td></td><td>Sets the PDF Orientation</td><td></td><td>In the following example the value of PDF Orientation is modified with the parameter of type <property>String</property>  having value 'p'<br>These are the available options to be used : p, l.<br>VBIPDFEXPORT_1.DSXSetPageOrientation('p');<br>
-<br>
-</td><td></td><td>
+<td>DSXSetPageOrientation('p');</td><td></td><td>Sets the PDF Orientation</td><td></td><td>In the following example the value of PDF Orientation is modified with the parameter of type <property>String</property>  having value 'p'<br>These are the available options to be used : p, l.<br><code>VBIPDFEXPORT_1.DSXSetPageOrientation('p');<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -55,9 +54,8 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXSetPageSize('a3');</td><td></td><td>Sets the Page Size</td><td></td><td>In the following example the value of Page Size is modified with the parameter of type <property>String</property>  having value 'a3'<br>These are the available options to be used : a3, a4, a5, letter, legal.<br>VBIPDFEXPORT_1.DSXSetPageSize('a3');<br>
-<br>
-</td><td></td><td>
+<td>DSXSetPageSize('a3');</td><td></td><td>Sets the Page Size</td><td></td><td>In the following example the value of Page Size is modified with the parameter of type <property>VBXPageSizeEnumfield</property>  having value 'a3'<br>These are the available options to be used : a3, a4, a5, letter, legal.<br><code>VBIPDFEXPORT_1.DSXSetPageSize('a3');<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -65,16 +63,15 @@ table.hovertable td {
 </tr>
 </th>
 <tr>
-<td>'a3'</td><td>String</td><td>Page Size</td>
+<td>'a3'</td><td>VBXPageSizeEnumfield</td><td>Page Size</td>
 </tr>
 </table>
 </td>
 </tr>
 <tr>
 <td>DSXSetLeftMargin("strLeftMargin");</td><td></td><td>Sets the pdfLeftMargin</td><td></td><td>In the following example the value of pdfLeftMargin is modified with the
-					  parameter of type <property>String</property> having value "strLeftMargin"<br>.<br>VBIPDFEXPORT_1.DSXSetLeftMargin("strLeftMargin");<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>String</property> having value "strLeftMargin"<br>.<br><code>VBIPDFEXPORT_1.DSXSetLeftMargin("strLeftMargin");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -89,9 +86,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetTopMargin("strTopMargin");</td><td></td><td>Sets the pdfTopMargin</td><td></td><td>In the following example the value of pdfTopMargin is modified with the
-					  parameter of type <property>String</property> having value "strTopMargin"<br>.<br>VBIPDFEXPORT_1.DSXSetTopMargin("strTopMargin");<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>String</property> having value "strTopMargin"<br>.<br><code>VBIPDFEXPORT_1.DSXSetTopMargin("strTopMargin");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -106,9 +102,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetDocumentName("strDocumentName");</td><td></td><td>Sets the DocumentName</td><td></td><td>In the following example the value of DocumentName is modified with the
-					  parameter of type <property>String</property> having value "strDocumentName"<br>.<br>VBIPDFEXPORT_1.DSXSetDocumentName("strDocumentName");<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>String</property> having value "strDocumentName"<br>.<br><code>VBIPDFEXPORT_1.DSXSetDocumentName("strDocumentName");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -123,9 +118,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetHeaderText("strHeaderText");</td><td></td><td>Sets the HeaderText</td><td></td><td>In the following example the value of HeaderText is modified with the
-					  parameter of type <property>String</property> having value "strHeaderText"<br>.<br>VBIPDFEXPORT_1.DSXSetHeaderText("strHeaderText");<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>String</property> having value "strHeaderText"<br>.<br><code>VBIPDFEXPORT_1.DSXSetHeaderText("strHeaderText");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -140,9 +134,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetFooterText("strFooterText");</td><td></td><td>Sets the FooterText</td><td></td><td>In the following example the value of FooterText is modified with the
-					  parameter of type <property>String</property> having value "strFooterText"<br>.<br>VBIPDFEXPORT_1.DSXSetFooterText("strFooterText");<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>String</property> having value "strFooterText"<br>.<br><code>VBIPDFEXPORT_1.DSXSetFooterText("strFooterText");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -157,9 +150,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetHeaderDate(true);</td><td></td><td>Sets the pdfHeaderDate</td><td></td><td>In the following example the value of pdfHeaderDate is modified with the
-					  parameter of type <property>boolean</property> having value true<br>.<br>VBIPDFEXPORT_1.DSXSetHeaderDate(true);<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>boolean</property> having value true<br>.<br><code>VBIPDFEXPORT_1.DSXSetHeaderDate(true);<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -174,9 +166,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetFooterDate(true);</td><td></td><td>Sets the pdfFooterDate</td><td></td><td>In the following example the value of pdfFooterDate is modified with the
-					  parameter of type <property>boolean</property> having value true<br>.<br>VBIPDFEXPORT_1.DSXSetFooterDate(true);<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>boolean</property> having value true<br>.<br><code>VBIPDFEXPORT_1.DSXSetFooterDate(true);<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -191,9 +182,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetHeaderPageNumber(true);</td><td></td><td>Sets the HeaderPageNumber</td><td></td><td>In the following example the value of HeaderPageNumber is modified with the
-					  parameter of type <property>boolean</property> having value true<br>.<br>VBIPDFEXPORT_1.DSXSetHeaderPageNumber(true);<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>boolean</property> having value true<br>.<br><code>VBIPDFEXPORT_1.DSXSetHeaderPageNumber(true);<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -208,9 +198,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetFooterPageNumber(true);</td><td></td><td>Sets the FooterPageNumber</td><td></td><td>In the following example the value of FooterPageNumber is modified with the
-					  parameter of type <property>boolean</property> having value true<br>.<br>VBIPDFEXPORT_1.DSXSetFooterPageNumber(true);<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>boolean</property> having value true<br>.<br><code>VBIPDFEXPORT_1.DSXSetFooterPageNumber(true);<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -224,10 +213,9 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXSetFontSize(86);</td><td></td><td>Sets the FontSize</td><td></td><td>In the following example the value of FontSize is modified with the
-					  parameter of type <property>int</property> having value 86<br>.<br>VBIPDFEXPORT_1.DSXSetFontSize(86);<br>
-<br>
-</td><td></td><td>
+<td>DSXSetFontSize(0.5);</td><td></td><td>Sets the FontSize</td><td></td><td>In the following example the value of FontSize is modified with the
+					  parameter of type <property>float</property> having value 0.5<br>.<br><code>VBIPDFEXPORT_1.DSXSetFontSize(0.5);<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -235,16 +223,15 @@ table.hovertable td {
 </tr>
 </th>
 <tr>
-<td>86</td><td>int</td><td>FontSize</td>
+<td>0.5</td><td>float</td><td>FontSize</td>
 </tr>
 </table>
 </td>
 </tr>
 <tr>
 <td>DSXSetTextColor("#FF0064");</td><td></td><td>Sets the TextColor</td><td></td><td>In the following example the value of TextColor is modified with the
-					  parameter of type Color Hex Value having value "#FF0064"<br>.<br>VBIPDFEXPORT_1.DSXSetTextColor("#FF0064");<br>
-<br>
-</td><td></td><td>
+					  parameter of type Color Hex Value having value "#FF0064"<br>.<br><code>VBIPDFEXPORT_1.DSXSetTextColor("#FF0064");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -259,9 +246,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetTextColor("#FF0064");</td><td></td><td>Sets the pdfBtnTextColor</td><td></td><td>In the following example the value of pdfBtnTextColor is modified with the
-					  parameter of type Color Hex Value having value "#FF0064"<br>.<br>VBIPDFEXPORT_1.DSXSetTextColor("#FF0064");<br>
-<br>
-</td><td></td><td>
+					  parameter of type Color Hex Value having value "#FF0064"<br>.<br><code>VBIPDFEXPORT_1.DSXSetTextColor("#FF0064");<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -276,9 +262,8 @@ table.hovertable td {
 </tr>
 <tr>
 <td>DSXSetScaleToFit(true);</td><td></td><td>Sets the pdfScaleToFit</td><td></td><td>In the following example the value of pdfScaleToFit is modified with the
-					  parameter of type <property>boolean</property> having value true<br>.<br>VBIPDFEXPORT_1.DSXSetScaleToFit(true);<br>
-<br>
-</td><td></td><td>
+					  parameter of type <property>boolean</property> having value true<br>.<br><code>VBIPDFEXPORT_1.DSXSetScaleToFit(true);<br>
+<br></code></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -292,9 +277,8 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXExportAsPDF();</td><td></td><td>Sets the Export as PDF</td><td></td><td>.<br>VBIPDFEXPORT_1.DSXExportAsPDF(null);<br>
-<br>In the following example the Export as PDF is triggered. <br>VBIPDFEXPORT_1.DSXExportAsPDF();<br>
-</td><td></td><td>
+<td>DSXExportAsPDF();</td><td></td><td>Sets the Export as PDF</td><td></td><td>.<br><code>VBIPDFEXPORT_1.DSXExportAsPDF(null);<br>
+<br></code>In the following example the Export as PDF is triggered. <br><code>VBIPDFEXPORT_1.DSXExportAsPDF();<br></code></td><td></td><td>
 <table>
 <th>
 <tr>
@@ -308,10 +292,12 @@ table.hovertable td {
 </td>
 </tr>
 <tr>
-<td>DSXExportSelectedComponents("strExportSelectedComponents");</td><td></td><td>Sets the Export Selected Components as PDF</td><td></td><td>In the following example the value of Export Selected Components as PDF is modified with the
-					  parameter of type <property>String</property> having value "strExportSelectedComponents"<br>.<br>VBIPDFEXPORT_1.DSXExportSelectedComponents("strExportSelectedComponents");<br>
-<br>
-</td><td></td><td>
+<td>DSXExportSelectedComponents("strExportSelectedComponents");</td><td></td><td>Sets the Export Selected Components as PDF</td><td></td><td></code></code>
+				<example>In the following example the selected components are exported.
+				This method gets comma(,) separated <property>string</property> as argument 
+				which should contain the component name's as shown.  <code>VBIPDFEXPORT_1.DSXExportSelectedComponents("LOCATIONANALYZER_1,HCMAP_1")</code></example><note>� Visual BI Solutions, 2015-2016. All rights reserved.</note>
+			
+			</td><td></td><td>
 <table>
 <th>
 <tr>
