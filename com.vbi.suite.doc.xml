@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="com.vbi.suite.doc" default="build-jar">
+
+
+  <property file="com.vbi.suite.doc.properties"/>
+
+
+  <target name="build-jar">
+    <jar destfile="${web.dir}/bin/com.vbi.suite.doc_1.2.0.201506151908.jar" >
+      <fileset dir="." includes="html/**" />
+      <fileset dir="." includes="css/**" />
+      <fileset dir="." includes="*.xml"/>
+      <fileset dir="." includes="*.html"/>
+    </jar>
+  </target>
+</project>
